@@ -5,8 +5,8 @@
         <h1 class="logo-text">Llama IA - Infinite Quiz</h1>
       </div>
       <nav class="nav-links">
-        <a href="https://github.com/seu-usuario" target="_blank" class="nav-link"><i class="ri-github-fill"></i></a>
-        <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="nav-link"><i class="ri-linkedin-line"></i></a>
+        <a href="https://github.com/Jeanpk12/llama-infinite-quiz" target="_blank" class="nav-link"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/jeanoliveira-dev/" target="_blank" class="nav-link"><i class="ri-linkedin-line"></i></a>
       </nav>
     </header>
   </template>
