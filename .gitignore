@@ -1,4 +1,4 @@
-# Logs
+# Ignorar logs
 logs
 *.log
 npm-debug.log*
@@ -7,18 +7,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Ignorar diretórios de build e distribuição
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Ignorar dependências
+node_modules/
+
+# Ignorar variáveis de ambiente
+.env
+.env.*
+
+# Ignorar caches e arquivos temporários do Vite
+.vite
+
+# Ignorar editor VS Code
+.vscode/
+!.vscode/extensions.json 
+
+# Ignorar configurações específicas de IDEs
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db

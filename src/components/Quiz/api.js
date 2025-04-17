@@ -1,8 +1,8 @@
 import Groq from "groq-sdk";
 
-// Use a API key diretamente com a opção de permitir o uso no navegador
+// Acesse a chave da API definida no .env (por exemplo: VITE_GROQ_API_KEY=your_key)
 const groq = new Groq({
-  apiKey: "API_KEY",
+  apiKey: import.meta.env.VITE_GROQ_API_KEY,
   dangerouslyAllowBrowser: true
 });
 
