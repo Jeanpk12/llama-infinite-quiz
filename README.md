@@ -2,6 +2,9 @@
 
 Este é um projeto de quiz dinâmico desenvolvido em Vue.js que utiliza uma API de IA para gerar questões automaticamente com base em temas inseridos pelo usuário.
 
+![image](https://github.com/user-attachments/assets/4d3a8e4c-699d-4a6b-b163-7e98442db1eb)
+## [Acesse o projeto](https://llama-infinite-quiz.vercel.app/)
+
 ## Funcionalidades
 
 - **Geração Automática de Questões**: As questões são geradas por uma API de IA com base em um tema fornecido pelo usuário.
